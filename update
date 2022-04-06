@@ -1,0 +1,35 @@
+package Assignment;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class MyGUI extends JFrame{
+	
+	
+	MyGUI() {
+		
+		JButton button1 = new JButton();
+		button1.setText("click me!");
+		
+		JPanel panel1 = new JPanel();
+		
+		JTextField tf1 = new JTextField();
+		tf1.setSize(100,100);
+		
+		JLabel label1 = new JLabel();
+		label1.setText("My name is Yinka Adebesin");
+		
+		this.setVisible(true);
+		this.setSize(300,300);
+		this.setTitle("Yinka Adebesin");
+		add(button1);
+		add(panel1);
+		add(tf1);
+		add(label1);
+	
+	}
+
+}
