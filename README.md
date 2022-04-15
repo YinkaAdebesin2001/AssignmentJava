@@ -8,3 +8,5 @@ with the chosen word, it will also display which file had the
 strongest match with the word and be placed into an array for display
 
 Author: Yinka Adebesin
+
+Youtube Video: https://youtu.be/sfPA5MnEPvg
